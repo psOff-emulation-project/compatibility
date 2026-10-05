@@ -18,11 +18,20 @@ psOff is a closed-source PlayStation® 4 emulator (compatibility layer) written 
 - **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
 
 ### Hardware Requirements
-- Windows 10 20H2 and above or any Linux 7.0+ distribution (6.0+ should be fine too but it's untested).
+- Windows 10 20H2 and above or any Linux distribution with GLIBC >=2.32, GLIBCXX >=3.4.11 and Kernel >=6.00.
 - At least 8 GB of free RAM (12 GB or more total).
 - Any x86_64 6-core CPU, but preferably 8-core one.
-- GPU with at least 4 GB VRAM and Vulkan 1.3+ support.
-- 256 MB of free space on disk.
+- GPU with at least 4 GB VRAM and Vulkan 1.3+ support, comfortable minimum is around AMD Radeon RX 580.
+- At the very least 48 MB of free space on disk with emulator files on it (not including in-game saves).
+
+> [!NOTE]
+> All Linux builds are compiled on GitHub runners with ubuntu-26.04 image, so
+> this distro probably is the best fit for running the emulator. But as long as
+> you have same or greater versions for GLIBC and GLIBCXX it should be fine
+> theoretically. The emulator was tested on: Arch Linux 2026.10.01, Ubuntu
+> Desktop 26.04 and Fedora Workstation 44. Distributions that are lagging
+> behind on package versions like Debian are expected to not work at all
+> until they get newer GLIBC and GLIBCXX versions.
 
 ### Features
 - [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button, the last one can be adjusted in settings.
