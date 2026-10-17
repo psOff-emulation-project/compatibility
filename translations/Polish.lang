@@ -35,9 +35,8 @@
 &View_Settings.AudioTab.GenOut.tt=Tutaj możesz wybrać wyjście audio do którego chcesz wysłać dźwięk z aplikacji.
 &View_Settings.UsersTab=Użytkownicy
 &View_Settings.FirmTab=Oprogramowanie
-&View_Settings.FirmTab.Lib=Ścieżka do folderu oprogramowania
-&View_Settings.FirmTab.Lib.tt=Ta wartość musi być pusta lub musi zawierać pełną ścieżkę\ndo folderu oprogramowania PS4 dowolnej wersji.\n\nJeżeli nic nie zostanie wybrane z listy, to ustawienie zostanie zignorowane.
-&View_Settings.FirmTab.ALib.tt=Tutaj możesz wybrać bibliotekę z oprogramowania PS4. Jeżeli ścieżka do oprogramowania jest pusta, to pole wyboru zostanie zignorowane.
+&View_Settings.FirmTab.LibPath=Ścieżka do folderu oprogramowania
+&View_Settings.FirmTab.LibPath.tt=Ta wartość musi być pusta lub musi zawierać pełną ścieżkę\ndo folderu oprogramowania dowolnej wersji.\n\nJeżeli nic nie zostanie wybrane z listy, to ustawienie zostanie zignorowane.
 &View_Settings.AboutTab=Informacje
 &View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation® 4, napisany w C++23. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
 &View_Settings.AboutTab.ThanksList=Specjalne podziękowania dla następujących osób, które pomagały nam w trakcie naszej podróży:
@@ -87,7 +86,6 @@
 &Details_View.SavesFolder=Folder zapisów aplikacji
 &Details_View.Feedback=Prześlij raport
 &Details_View.CommunityPatches=Dostępne łatki społecznościowe
-&Details_View.CommunityPatches.tt=Lista zawiera wszystkie dostępne nieoficjalne łatki dla wybranej aplikacji.
 &Details_View.Patches.Incompat=Pokaż możliwie niedziałające łatki (NIEBEZPIECZNE!!!)
 &Details_View.Patches.PVer=Wersja G|P
 &Details_View.Patches.PAuthor=Autor
@@ -100,7 +98,6 @@
 &CRun_View.AutoFill=Automatyczne wypełnianie ścieżki głównej
 &CRun_View.Run=Uruchom aplikację
 &CRun_View.Stop=Zatrzymaj aplikację
-&CRun_View.AddLib=Dodaj aplikację do mojej biblioteki
 &Details_View.AvailPatches.tt=Lista ta zawiera wszystkie oficjalne aktualizacje dla wybranej aplikacji, które skaner zdołał znaleźć w określonych ścieżkach.
 &Notify.AlreadyRunApp.Description=Inna aplikacja już jest uruchomiona!
 &Notify.AudioConnect.Title=Podłączono urządzenie audio
@@ -110,7 +107,6 @@
 &Notify.CommPatchWarn.Title=Ostrzeżenie dotyczące łatek społeczności
 &Notify.CustomRun.Title=Niestandardowe uruchomienie
 &Notify.CustomRunCrash.Description=Aplikacja właśnie się zawiesiła! Sprawdź logi emulatora, aby uzyskać więcej szczegółów.
-&Notify.CustomRunWIP.Description=Ta funkcja nie jest jeszcze gotowa do użycia!
 &Notify.Firmware.Title=Biblioteki oprogramowania
 &Notify.FirmwareNoLibs.Description=Przynajmniej jedna biblioteka oprogramowania musi być wybrana!
 &Notify.FirmwareNoPath.Description=Wybrano dozwolone biblioteki oprogramowania, ale nie ma ścieżki do folderu zawierającego te biblioteki!
@@ -159,7 +155,6 @@
 &View_Settings.AboutTab.ThanksJose=Promowanie emulatora w mediach społecznościowych i inne formy pomocy
 &View_Settings.AboutTab.PlTranslation=Polskie tłumaczenie
 &Details_View.Trophies=Trofea
-&Details_View.Trophies.tt=Ta lista zawiera wszystkie trofea tej gry.
 &Details_View.Trophies.ShowSpoilers=Pokaż ukryte trofea
 &Details_View.Trophies.ShowSpoilers.tt=Uwaga, spoilery!!! Jeśli zaznaczysz to pole wyboru, możesz zobaczyć rzeczy, których nie powinieneś widzieć w tym momencie.
 &Details_View.Trophies.CurrGame=Obecny tytuł
@@ -187,7 +182,6 @@
 &View_Dialog.SysMsg.UsrStore=Żaden produkt nie jest dostępny dla użytkownika
 &View_Dialog.UpdaterChild.Description=Aby zaktualizować wersję emulatora, należy najpierw zamknąć uruchomioną aplikację!
 &View_Dialog.UpdaterError.DescriptionConsole=Sprawdź konsolę, aby uzyskać więcej szczegółów.
-&View_Dialog.UpdaterError.ExitBtn=Zamknij emulator
 &View_Dialog.UpdaterError.Title=Aktualizacja nie powiodła się!
 &View_Dialog.UpdaterNewVer.Title=Nowa wersja znaleziona!
 &View_Dialog.UpdaterProgress.Description=Proszę czekać na pobranie nowej wersji. Emulator uruchomi się ponownie zaraz po zainstalowaniu aktualizacji.
