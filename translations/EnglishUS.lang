@@ -9,6 +9,9 @@
 &Global.SettGlob=Use global setting
 &Global.HourShort=hr.
 &Global.MinuteShort=min.
+&Global.Title=Title
+&Global.ID=Title ID
+&Global.Loc=Location
 &View_Base.GamesFilterLabel=Library Search
 &View_Base.GamesFilter.tt=Use this field to search for applications in your library.
 &View_Base.GamesList.tt=This list contains all the applications found by the scanner.
@@ -88,7 +91,6 @@
 &Details_View.Patches.Incompat=Show potentially incompatible patches (VERY DANGEROUS!!!)
 &Details_View.Patches.PVer=Version G|P
 &Details_View.Patches.PAuthor=Author
-&Details_View.Patches.PTitle=Title
 &Details_View.Patches.NotFound=No patches found for this application version. Either this application lacks community patches, or you have no "patches" folder near psOff.exe executable.
 &Details_View.Patches.Download=Download latest patches
 &Details_View.Patches.Disclaimer=By downloading, using, or distributing these community-made patches to executable files and shared libraries, you acknowledge that you bear sole responsibility for any legal consequences, including compliance with copyright and licensing laws, and accept that these patches are provided "as is" without any warranty, causing software malfunction, or data loss, and that no formal support is guaranteed, with the understanding that such use does not imply endorsement by original software developers and must comply with all relevant local, national, and international laws.

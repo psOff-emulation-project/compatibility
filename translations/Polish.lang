@@ -1,6 +1,7 @@
 &Global.Cancel=Odrzuć
 &Global.Name=Nazwa
 &Global.Desc=Opis
+&Global.Title=Tytuł
 &View_Settings.Title=Ustawienia psOff
 &View_Settings.Close=Zamknij
 &View_Settings.Reset=Odrzuć zmiany
@@ -239,7 +240,6 @@
 &Details_View.AppSpecific.ElfMismatch.tt=Gdy to ustawienie jest aktywne, emulator zignoruje błędy\nz wersją SDK w bibliotekach i pliku wykonalnym.\nUżywaj tej opcji tylko, jeśli wiesz, co robisz!
 &Details_View.AppSpecific.NeoMode=Uruchom w trybie NEO (PS4 Pro)
 &Details_View.AppSpecific.NeoMode.tt=Gdy to ustawienie jest aktywne, emulator uruchomi ten tytuł w trybie PS4 Pro (NEO).\nWyższy limit FPS, większe zużycie pamięci RAM, rozdzielczość 4K.
-&Details_View.Patches.PTitle=Tytuł
 &Details_View.HintUIOpen=Kliknij przycisk przypisany w ustawieniach lub naciśnij "Share" na kontrolerze, aby wywołać menu psOff podczas gry.
 &View_SSearch.UseLists=Typ listy
 &View_SSearch.UseLists.0=Wszystkie aplikacje

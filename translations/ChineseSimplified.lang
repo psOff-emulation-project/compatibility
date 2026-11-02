@@ -5,6 +5,7 @@
 &Global.RendResolution.tt=这个选项设定用于应用程序的渲染分辨率。\n它可被设定为针对所有应用程序或者单个应用。\n\n警告！并非所有应用程序都支持这个设置,变更分辨率可能让某些应用崩溃。
 &Global.HourShort=小时
 &Global.MinuteShort=分钟
+&Global.Title=标题
 &Details_View.LogsFolder=日志目录
 &View_Settings.Title=psOff设置
 &View_Settings.Close=关闭
@@ -156,7 +157,6 @@
 &Details_View.Patches.NotFound=未找到此应用程序版本的补丁。可能此应用程序缺少社区补丁或在psOff.exe可执行文件旁没有"patches"目录。
 &Details_View.Patches.Download=下载最新补丁
 &Details_View.Patches.Disclaimer=下载、使用或分发这些社区制作的可执行文件和共享库补丁，即表示您承认您对任何法律后果承担全部责任，包括遵守版权和许可法，并接受这些补丁“按原样”提供，不提供任何保证，不会导致软件故障或数据丢失，并且不保证提供正式支持，并理解此类使用并不意味着原始软件开发人员的认可，并且必须遵守所有相关的当地、国家和国际法律。
-&Details_View.Patches.PTitle=标题
 &Details_View.Trophies=奖杯和进度
 &Details_View.Trophies.ShowSpoilers=显示隐藏的奖杯
 &Details_View.Trophies.ShowSpoilers.tt=前方剧透！！如果你勾选这个复选框，你可能会见到\n你当前不应该看到的某些信息。

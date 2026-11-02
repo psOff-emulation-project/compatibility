@@ -5,6 +5,7 @@
 &Global.RendResolution.tt=Questa opzione imposta la risoluzione di rendering da utilizzare per l'applicazione/le applicazioni.\nPuò essere impostata globalmente per tutte le applicazioni o separatamente per applicazioni specifiche.\n\nAttenzione! Non tutte le applicazioni supportano questa impostazione, alcune potrebbero non funzionare correttamente cambiando la risoluzione.
 &Global.HourShort=h.
 &Global.MinuteShort=min.
+&Global.Title=Titolo
 &Details_View.LogsFolder=Cartella Log
 &View_Settings.Title=Impostazioni psOff
 &View_Settings.Close=Chiudi
@@ -161,7 +162,6 @@
 &Details_View.Patches.NotFound=Nessuna patch trovata per questa versione dell'applicazione. O questa applicazione non ha patch della community, oppure non hai una cartella "patches" vicino all'eseguibile psOff.exe.
 &Details_View.Patches.Download=Scarica le ultime patch
 &Details_View.Patches.Disclaimer=Scaricando, utilizzando o distribuendo queste patch create dalla community per file eseguibili e librerie condivise, riconosci di assumerti la piena responsabilità per eventuali conseguenze legali, inclusa la conformità alle leggi sul copyright e sulle licenze, e accetti che queste patch siano fornite "così come sono" senza alcuna garanzia, potendo causare malfunzionamenti del software o perdita di dati, e che non è garantito alcun supporto formale, comprendendo che tale uso non implica l'approvazione da parte degli sviluppatori software originali e deve essere conforme a tutte le leggi locali, nazionali e internazionali pertinenti.
-&Details_View.Patches.PTitle=Titolo
 &Details_View.Trophies=Trofei e Progresso
 &Details_View.Trophies.ShowSpoilers=Mostra trofei nascosti
 &Details_View.Trophies.ShowSpoilers.tt=Attenzione spoiler!! Se spunti questa casella, potresti vedere cose\nche non dovresti vedere in questo momento.

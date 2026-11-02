@@ -1,5 +1,6 @@
 &Global.Yes=Oui
 &Global.No=Non
+&Global.Title=Titre
 &Details_View.LogsFolder=Dossier des journaux
 &View_Settings.Title=Paramètres psOff
 &View_Settings.Close=Fermer
@@ -136,7 +137,6 @@
 &Details_View.Patches.NotFound=Aucun correctif trouvé pour cette version de l'application. Soit cette application ne dispose pas de correctifs communautaires, soit vous n'avez pas de dossier « patches » à proximité de l'exécutable psOff.exe.
 &Details_View.Patches.Download=Télécharger les derniers correctifs
 &Details_View.Patches.Disclaimer=En téléchargeant, en utilisant ou en distribuant ces correctifs créés par la communauté sur des fichiers exécutables et des bibliothèques partagées, vous reconnaissez que vous êtes seul responsable de toutes les conséquences juridiques, y compris le respect des lois sur les droits d'auteur et les licences, et acceptez que ces correctifs sont fournis « tels quels » sans aucune garantie, provoquant un dysfonctionnement du logiciel ou une perte de données, et qu'aucun support formel n'est garanti, étant entendu qu'une telle utilisation n'implique pas l'approbation des développeurs de logiciels d'origine et doit être conforme à toutes les lois locales, nationales et internationales pertinentes.
-&Details_View.Patches.PTitle=Titre
 &Details_View.Trophies=Trophées et progression
 &Details_View.Trophies.ShowSpoilers=Afficher les trophées masqués
 &Details_View.Trophies.ShowSpoilers.tt=Spoilers ! Si vous cochez cette case, vous risquez de voir des choses que vous n'êtes pas censé voir pour le moment.
