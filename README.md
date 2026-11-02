@@ -1,4 +1,4 @@
-# psOff_premium - PlayStation 4 Emulation (Windows)
+# psOff
 Offline, no PSN account required.
 
 <div align="center">
@@ -11,24 +11,33 @@ Offline, no PSN account required.
 
 ## About the Emulator
 
-psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
+psOff is a closed-source PlayStation® 4 emulator (compatibility layer) written in C++23. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
 
 ### Main Developers
 - **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
 - **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
 
 ### Hardware Requirements
-- Windows 10 20H2 and above.
+- Windows 10 version 1809 and above or any Linux distribution with GLIBC >=2.32, GLIBCXX >=3.4.11.
 - At least 8 GB of free RAM (12 GB or more total).
-- Preferably 6-core CPU.
-- GPU with at least 4 GB VRAM and Vulkan 1.3+ support.
-- 256 MB of free space on disk.
+- Any x86_64 6-core CPU, but preferably 8-core one.
+- GPU with at least 4 GB VRAM and Vulkan 1.3+ support, comfortable minimum is around AMD Radeon RX 580.
+- At the very least 48 MB of free space on disk with the emulator files on it (not including in-game saves).
+
+> [!NOTE]
+> All Linux builds are compiled on GitHub runners with ubuntu-26.04 image, so
+> this distro probably is the best fit for running the emulator. But as long as
+> you have the same or greater versions for GLIBC and GLIBCXX it should be fine
+> theoretically. The emulator release was tested on: Arch Linux 2026.10.01,
+> Ubuntu Desktop 26.04 and Fedora Workstation 44. Distributions that are lagging
+> behind on package versions like Debian are expected to not work at all until
+> they get newer GLIBC and GLIBCXX versions.
 
 ### Features
 - [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button, the last one can be adjusted in settings.
 - [x] **Couch Co-Op** – Play local multiplayer with up to 3 friends using multiple gamepads (it is possible to emulate gamepad using keyboard too – check bottom of README for keybinds).
 - [x] **LAN Play** - A WIP network layer emulation that technically enables multiplayer gameplay for games with LAN support. So far, it has only been tested on a few titles and proven to work, but other titles may experience issues.
-- [x] **Neo Mode** - Per-title setting to run applications in PlayStation 4 Pro mode (higher resolution, framerate and RAM usage).
+- [x] **Neo Mode** - Per-title setting to run applications in PlayStation® 4 Pro mode (higher resolution, framerate and RAM usage).
 - [x] **PS4 Firmware Modules** – Load system modules for broader compatibility.
 - [x] **Community Patches** – Supports [illusion0001's patches](https://github.com/illusion0001/PS4-PS5-Game-Patch) *(manual installation required for now – check our Discord for more info)*.
 - [x] **Per-Game Settings** – Customize FPS limits, resolution, and other options per title.
