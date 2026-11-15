@@ -14,9 +14,9 @@
 &Global.Loc=Location
 &View_Base.GamesFilterLabel=Library Search
 &View_Base.GamesFilter.tt=Use this field to search for applications in your library.
-&View_Base.GamesList.tt=This list contains all the applications found by the scanner.
 &View_Base.Load=Search
 &View_Base.Load.tt=Press this button to trigger the application scanner.
+&View_Base.SearchSettings=Search settings
 &View_SSearch.UseLists=Used lists
 &View_SSearch.UseLists.0=All Applications
 &View_SSearch.UseLists.1=Only Retail Applications
@@ -239,7 +239,6 @@
 &View_Dialog.SysMsg.Camera=PlayStation® Camera is not connected
 &View_Dialog.SysMsg.Profile=PFP and name sharing disabled
 &View_Dialog.SysMsg.Comm=PSN Communication is restricted
-
 &View_Dialog.UpdaterNewVer.Title=New version found!
 &View_Dialog.UpdaterNewVer.Description=Some components of the emulator are out of date. Which ones you want to update?
 &View_Dialog.UpdaterProgress.Title=Downloading a new version...
