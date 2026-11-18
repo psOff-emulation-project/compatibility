@@ -239,8 +239,6 @@
 &Notify.Welcome.Title=Benvenuto!
 &Notify.LogSize.Title=La cartella dei log è troppo grande
 &Notify.LogSize.Description=La tua cartella "logs" è troppo grande! Occupa più di 512MB, devi pulirla manualmente.
-&View_Base.Load=Cerca
-&View_Base.Load.tt=Premi questo pulsante per avviare lo scanner delle applicazioni.
 &View_SSearch.UseLists=Elenchi usati
 &View_SSearch.UseLists.0=Tutte le Applicazioni
 &View_SSearch.UseLists.1=Solo Applicazioni Retail

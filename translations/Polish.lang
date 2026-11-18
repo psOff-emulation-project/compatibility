@@ -41,8 +41,6 @@
 &View_Settings.AboutTab=Informacje
 &View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation® 4, napisany w C++23. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
 &View_Settings.AboutTab.ThanksList=Specjalne podziękowania dla następujących osób, które pomagały nam w trakcie naszej podróży:
-&View_Base.Load=Szukaj
-&View_Base.Load.tt=Kliknij ten przycisk, aby wygenerować bibliotekę...
 &View_Base.GamesFilterLabel=Filtr biblioteki
 &View_Base.GamesList.tt=Lista zawiera wszystkie aplikacje znalezione przez skaner.
 &View_Settings.UsersTab.Enabled=Wybrani użytkownicy:

@@ -224,8 +224,6 @@
 &Notify.VulkanDbgLayer.Description=Échec de l'activation des couches de validation Vulkan. Veuillez vous assurer que vous disposez d'une version compatible de VulkanSDK.
 &Notify.Welcome.Description=Maintenez le curseur sur un élément pendant deux secondes pour afficher l'info-bulle.
 &Notify.Welcome.Title=Bienvenue !
-&View_Base.Load=Rechercher
-&View_Base.Load.tt=Appuyez sur ce bouton pour lancer l'analyse de l'application.
 &View_Dialog.Error.EDesc=Code d'erreur :
 &View_Dialog.Error.EFacil=Facilité :
 &View_Dialog.Error.Title=Une erreur SCE s'est produite !

@@ -14,8 +14,6 @@
 &Global.Loc=Location
 &View_Base.GamesFilterLabel=Library Search
 &View_Base.GamesFilter.tt=Use this field to search for applications in your library.
-&View_Base.Load=Search
-&View_Base.Load.tt=Press this button to trigger the application scanner.
 &View_Base.SearchSettings=Search settings
 &View_SSearch.UseLists=Used lists
 &View_SSearch.UseLists.0=All Applications

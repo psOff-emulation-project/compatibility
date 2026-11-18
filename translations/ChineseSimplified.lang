@@ -234,8 +234,6 @@
 &Notify.Welcome.Title=欢迎！
 &Notify.LogSize.Title=日志目录过大
 &Notify.LogSize.Description=你的“logs”目录过大！占用超过512MB空间，请手动清理它。
-&View_Base.Load=搜索
-&View_Base.Load.tt=按下此按钮来触发应用程序扫描器。
 &View_SSearch.UseLists=使用的列表
 &View_SSearch.UseLists.0=所有应用程序
 &View_SSearch.UseLists.1=仅零售应用程序

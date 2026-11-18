@@ -145,8 +145,6 @@
 &View_SSearch.OnlyFavApp=Показывать только избранные приложения
 &View_SSearch.OnlyPS4App=Скрыть PlayStation® 5 приложения
 &View_SSearch.UnFav=Очистить избранное
-&View_Base.Load=Поиск
-&View_Base.Load.tt=Нажмите эту кнопку чтобы запустить сканер приложений.
 &View_Base.SearchSettings=Настройки поиска
 &View_Base.GamesFilterLabel=Поиск по списку
 &View_Base.GamesFilter.tt=Используйте это поле, чтобы отфильтровать список библиотеки приложений.
